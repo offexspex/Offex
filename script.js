@@ -6,7 +6,7 @@ const sec = document.getElementById("secs");
 // const date = window.prompt(
 //   "Enter Date in dd/mm/yyyy format and time in hh:mm:ss format followed by space"
 // );
-date = "1 sept 2021";
+date = "15 oct 2021";
 const myDate = new Date(date); //using New DATE OBJECT
 
 function timer() {
