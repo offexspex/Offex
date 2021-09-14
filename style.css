@@ -2365,3 +2365,34 @@ RESPONSIVE
 .timer_container > span {
   margin-inline: 5px;
 }
+
+
+
+/*
+youtube iframe responsive height width
+*/
+
+.set{
+  width: 95vw;
+  height: 56.3vw;
+ 
+}
+
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .set{
+    width: 70vw;
+    height: 38vw;
+   
+  }
+}
+
+@media only screen and (min-width: 968px) {
+  /* For desktop: */
+  .set{
+    width: 40vw;
+    height: 22vw;
+   
+  }
+}
