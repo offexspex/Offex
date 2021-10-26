@@ -2366,34 +2366,77 @@ RESPONSIVE
   margin-inline: 5px;
 }
 
+.sponsored {
+  max-width: 100%;
+}
+.sponsored > a > img {
+  max-width: 100%;
+}
 
+.allcourse {
+  padding: 2rem;
+}
 
+.course-container {
+  border: black solid 0.2px;
+  display: flex;
+  width: 100%;
+  margin: 1rem auto;
+  justify-content: space-around;
+}
+.course-container > img {
+  width: 20%;
+}
+.course-container > div > h2 {
+  font-size: medium;
+}
+.course-container div > p {
+  color: rgb(112, 112, 112);
+  font-weight: bold;
+  font-size: small;
+}
+.course-container > div > p > span {
+  color: rgb(175, 77, 77);
+}
+.course-container > div > span {
+  color: #34a853;
+  font-weight: bold;
+}
+.course-container > * {
+  margin: 1rem;
+}
+.course-container > a {
+  align-self: center;
+  background-color: #21c0c0;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+}
 /*
 youtube iframe responsive height width
 */
 
-.set{
+.set {
   width: 95vw;
   height: 56.3vw;
- 
 }
-
 
 @media only screen and (min-width: 600px) {
   /* For tablets: */
-  .set{
+  .set {
     width: 70vw;
     height: 38vw;
-   
   }
 }
 
 @media only screen and (min-width: 968px) {
   /* For desktop: */
-  .set{
+  .set {
     width: 40vw;
     height: 22vw;
-   
   }
 }
 
+body {
+  overflow-x: hidden;
+}
